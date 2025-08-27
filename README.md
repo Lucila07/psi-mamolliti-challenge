@@ -49,27 +49,25 @@ La plataforma está diseñada con un enfoque mobile-first y prioriza la experien
 - npm, yarn, pnpm o bun
 
 ### Instalación
-\`\`\`bash
-# Instalar dependencias
+````# Instalar dependencias
 npm install
 
 # Ejecutar en modo desarrollo
 npm run dev
-\`\`\`
+````
 
 ### Scripts Disponibles
-\`\`\`bash
-npm run dev          # Servidor de desarrollo
+````npm run dev          # Servidor de desarrollo
 npm run build        # Build de producción
 npm run start        # Servidor de producción
 npm run lint         # Linting del código
-\`\`\`
+````
 
 La aplicación estará disponible en `http://localhost:3000`
 
 ## 🏗️ Estructura del Proyecto
 
-\`\`\`
+````
 ├── app/                    # App Router de Next.js
 │   ├── globals.css        # Estilos globales y tokens de diseño
 │   ├── layout.tsx         # Layout principal con fuentes
@@ -92,7 +90,7 @@ La aplicación estará disponible en `http://localhost:3000`
 ├── types/                 # Definiciones de TypeScript
 │   └── psychologist.ts    # Interfaces y tipos
 └── public/               # Assets estáticos
-\`\`\`
+````
 
 ## 🔮 Próximos Pasos
 
